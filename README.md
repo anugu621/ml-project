@@ -7,6 +7,7 @@ A Machine Learning project that predicts student performance based on various ac
 The goal of this project is to analyze student data and predict their performance using machine learning algorithms. It helps in identifying key factors affecting student scores.
 
 🧠 Features
+
 End-to-end Machine Learning pipeline
 Data Ingestion, Transformation, and Model Training
 Model evaluation and selection
@@ -15,6 +16,7 @@ Modular and scalable code structure
 Logging and exception handling
 
 📁 Project Structure
+
 mlproject-main/
 │
 ├── artifacts/              # Saved models and datasets
@@ -33,6 +35,7 @@ mlproject-main/
 └── README.md               # Project documentation
 
 ⚙️ Technologies Used
+
 Python
 Pandas, NumPy
 Scikit-learn
@@ -41,6 +44,7 @@ Flask
 HTML/CSS
 
 🔄 ML Pipeline
+
 Data Ingestion
 Reads raw dataset
 Splits into train/test
@@ -57,6 +61,7 @@ Takes user input via UI
 Outputs prediction
 
 📊 Dataset Features
+
 Gender
 Race/Ethnicity
 Parental Level of Education
@@ -66,18 +71,22 @@ Reading Score
 Writing Score
 
 📈 Model Performance
+
 Multiple models evaluated (Linear Regression, Random Forest, CatBoost, etc.)
 Best model selected based on accuracy metrics
 
 🧪 Notebooks
+
 EDA Notebook → Data analysis and visualization
 Model Training Notebook → Model experiments
 
 🔐 Logging & Exception Handling
+
 Custom logging implemented for debugging
 Centralized exception handling for robustness
 
 📌 Future Improvements
+
 Deploy on AWS / Azure
 Add real-time data input
 Improve UI/UX
